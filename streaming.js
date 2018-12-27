@@ -43,4 +43,4 @@ if (message.content.startsWith(adminprefix + 'sa')) {
 }
 });
 
-client.login("NTI1NjgxOTgzNzUwMTQ0MDEw.Dwbrmw.HDTc7UDi59KGQ0AezoZ8HRERfrk");
+client.login(process.env.BOT_TOKEN);
