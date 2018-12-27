@@ -30,7 +30,7 @@ client.on('message', message => {
       message.channel.send(`**تَم تغيير الليسينينق الى   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/paaaaaartly");
+    client.user.setGame(argresult, "https://www.twitch.tv/medo149");
       message.channel.send(`تم تغييرك حالتك بالتويتش الى   **${argresult}**`)
   }
   if (message.content.startsWith(adminprefix + 'sn')) {
