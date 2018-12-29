@@ -1,9 +1,7 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 const adminprefix = "$";
 const developers = ['439393453332234243'];
-
-console.log("Medo");
 
 client.on('ready', () => {
     console.log(`Logged as ${client.user.tag}`)
